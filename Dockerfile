@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir paho-mqtt
 
 COPY main.py .
 
-CMD ["python", "bridge.py"]
+CMD ["python", "main.py"]
